@@ -1,0 +1,17 @@
+{
+  "name": "myfrontend",
+  "version": "1.0.0",
+  "description": "app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "nodemon server/index.js"
+  },
+  "author": "diego",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^1.19.2",
+    "xpress": "^2.4.6"
+  }
+}
